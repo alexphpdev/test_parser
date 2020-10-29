@@ -26,7 +26,7 @@
             @foreach($elements as $el)
                 <tr>
                     <td>{{$el->dateFormated}}</td>
-                    <td>{{$el->title}}</td>
+                    <td><a target="blank" href="{{$el->link}}">{{$el->title}}</a></td>
                     <td>{{$el->author}}</td>
                     <td>{{$el->tags}}</td>
                 </tr>
